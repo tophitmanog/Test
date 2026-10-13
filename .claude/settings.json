@@ -1,13 +1,21 @@
 {
+  "enabledPlugins": {
+    "ecc@ecc": true,
+    "superpowers@claude-plugins-official": true,
+    "context7@claude-plugins-official": true
+  },
   "extraKnownMarketplaces": {
     "ecc": {
       "source": {
         "source": "github",
         "repo": "affaan-m/ECC"
       }
+    },
+    "claude-plugins-official": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      }
     }
-  },
-  "enabledPlugins": {
-    "ecc@ecc": true
   }
 }
