@@ -10,8 +10,8 @@ export type Style = 'glow' | 'karaoke' | 'minimal';
 export const settings = {
   video: 'background.mp4',
   // Set to null to keep the audio already in your video
-  song: null as string | null,    // e.g. 'song.mp3'
-  songStartAt: 0,                 // skip this many seconds into the song
+  song: 'song.mp3' as string | null,
+  songStartAt: 10,                // skip this many seconds into the song
   durationSeconds: 15,            // length of the final Reel
   style: 'glow' as Style,         // 'glow' | 'karaoke' | 'minimal'
   position: 'lower' as 'center' | 'lower',
