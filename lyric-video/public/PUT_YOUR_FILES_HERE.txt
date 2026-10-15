@@ -1,0 +1,2 @@
+Put your video here named background.mp4
+(Optional) put the song here named song.mp3
