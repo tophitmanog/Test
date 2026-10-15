@@ -11,7 +11,7 @@ export const settings = {
   video: 'background.mp4',
   // Set to null to keep the audio already in your video
   song: 'song.mp3' as string | null,
-  songStartAt: 10,                // skip this many seconds into the song
+  songStartAt: 31.9,                // skip this many seconds into the song
   durationSeconds: 15,            // length of the final Reel
   style: 'glow' as Style,         // 'glow' | 'karaoke' | 'minimal'
   position: 'lower' as 'center' | 'lower',
@@ -23,9 +23,9 @@ export const settings = {
 // start = second the line appears. It stays until the next line starts.
 // Add end: 9.5 to any line to make it disappear earlier.
 export const lyrics: {start: number; end?: number; text: string}[] = [
-  // Garry Sandhu – Eid: paste your lines here (Gurmukhi or Roman both work)
-  {start: 0.5, text: 'Eid Mubarak'},
-  {start: 3.5, text: 'Line 1 of the song'},
-  {start: 7.0, text: 'Line 2 of the song'},
-  {start: 10.5, text: 'Line 3 of the song', end: 14.5},
+  // Garry Sandhu - Eid (song 0:32 to 0:47)
+  {start: 0.3, text: 'Teri meri arhiye abaad hoje zindagi'},
+  {start: 4.3, text: 'Apne ton kohan door rehan ni giley'},
+  {start: 8.3, text: 'Tere mukh da deedar mainu Eid warga'},
+  {start: 11.3, text: 'Koi farak ni painda chann disey na disey', end: 14.8},
 ];

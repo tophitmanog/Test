@@ -31,7 +31,7 @@ const Line: React.FC<{text: string; start: number; end: number}> = ({text, start
     fontFamily: FONT, fontStyle: 'italic', fontWeight: 600,
     fontSize: style === 'minimal' ? fontSize * 0.6 : fontSize,
     lineHeight: 1.15, color: textColor, textAlign: 'center',
-    padding: '0 90px', opacity: fade,
+    padding: '0 90px', opacity: fade, textWrap: 'balance',
     transform: `translateY(${y}px)`, filter: `blur(${blur}px)`,
   };
 
