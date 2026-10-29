@@ -8,3 +8,5 @@ BlueMountain_Kavita_4K.mp4 filter=lfs diff=lfs merge=lfs -text
 BlueMountain_Village_4K.mp4 filter=lfs diff=lfs merge=lfs -text
 BlueMountain_Reel_4K.mp4 filter=lfs diff=lfs merge=lfs -text
 BlueMountain_Village_HQ_1080.mp4 filter=lfs diff=lfs merge=lfs -text
+BlueMountain_Village_Fast_4K.mp4 filter=lfs diff=lfs merge=lfs -text
+BlueMountain_Village_Fast_HQ_1080.mp4 filter=lfs diff=lfs merge=lfs -text
