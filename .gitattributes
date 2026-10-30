@@ -20,3 +20,4 @@ BlueMountain_KaaliKaali_4K.mp4 filter=lfs diff=lfs merge=lfs -text
 BlueMountain_KaaliKaali_HQ_1080.mp4 filter=lfs diff=lfs merge=lfs -text
 BlueMountain_October_4K.mp4 filter=lfs diff=lfs merge=lfs -text
 BlueMountain_October_HQ_1080.mp4 filter=lfs diff=lfs merge=lfs -text
+SlowWalk_4K_HDR.mov filter=lfs diff=lfs merge=lfs -text
